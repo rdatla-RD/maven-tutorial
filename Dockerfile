@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk
+FROM openjdk:24-jdk
 WORKDIR /app
 COPY target/maven-tutorial-1.0-SNAPSHOT.jar /app/
 EXPOSE 8085
